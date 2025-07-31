@@ -26,7 +26,7 @@ export default function Navigation() {
           <div className="flex lg:flex-1">
             <Link href="/" className="-m-1.5 p-1.5">
               <Image
-                src="/images/freedom-logo-removebg-preview (1).png"
+                src="/images/afm-logo.png"
                 alt="Albany Final Mile Logo"
                 width={200}
                 height={50}
