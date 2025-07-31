@@ -96,7 +96,7 @@ export default function Privacy() {
               <p className="text-gray-600 dark:text-gray-300">
                 Email: info@afinalmile.com<br />
                 Phone: 678-433-6100<br />
-                Address: 13981 Pecan Park Road, Jacksonville, FL 32218
+                Address: 2751 Buford Hwy, Atlanta, GA 30324
               </p>
             </section>
           </div>

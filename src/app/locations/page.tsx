@@ -10,23 +10,18 @@ const locations = [
     email: 'atl@afinalmile.com',
   },
   {
-    name: 'Jacksonville, FL',
-    address: '13981 Pecan Park Road, Jacksonville, FL 32218',
+    name: 'Charlotte, NC',
+    address: '9410 D Ducks Lane, Charlotte, NC 28273',
     phone: '678-433-6100',
-    email: 'jax@afinalmile.com',
+    email: 'clt@afinalmile.com',
   },
   {
-    name: 'Savannah, GA',
-    address: '456 Port Way, Savannah, GA 31401',
+    name: 'Raleigh-Durham, NC',
+    address: '2320 Presidential Park Drive, Suite 109, Durham, NC 27703',
     phone: '678-433-6100',
-    email: 'sav@afinalmile.com',
+    email: 'rdu@afinalmile.com',
   },
-  {
-    name: 'Tampa, FL',
-    address: '789 Harbor Blvd, Tampa, FL 33602',
-    phone: '678-433-6100',
-    email: 'tpa@afinalmile.com',
-  },
+
 ]
 
 export default function Locations() {

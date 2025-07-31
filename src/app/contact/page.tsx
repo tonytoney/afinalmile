@@ -174,13 +174,12 @@ export default function Contact() {
             <div className="space-y-6">
               <div>
                 <h3 className="text-lg font-semibold mb-2 text-gray-900 dark:text-white">Corporate Office</h3>
-                <p className="text-gray-600 dark:text-gray-300">Albany Final Mile</p>
-                <p className="text-gray-600 dark:text-gray-300">13981 Pecan Park Road</p>
-                <p className="text-gray-600 dark:text-gray-300">Jacksonville, FL 32218</p>
+                <p className="text-gray-600 dark:text-gray-300">2751 Buford Hwy</p>
+                <p className="text-gray-600 dark:text-gray-300">Atlanta, GA 30324</p>
               </div>
               <div>
                 <h3 className="text-lg font-semibold mb-2 text-gray-900 dark:text-white">Phone</h3>
-                <p className="text-gray-600 dark:text-gray-300">Main: 678-433-6100</p>
+                <p className="text-gray-600 dark:text-gray-300">Main:(678) 433-6100</p>
                 <p className="text-gray-600 dark:text-gray-300">Fax: (678) 609-1530</p>
               </div>
               <div>
