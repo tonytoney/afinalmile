@@ -30,7 +30,7 @@ export default function Navigation() {
                 alt="Albany Final Mile Logo"
                 width={200}
                 height={50}
-                className="h-12 w-auto"
+                className="h-16 w-auto"
                 priority
               />
               <span className="sr-only">Albany Final Mile</span>
