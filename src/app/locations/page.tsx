@@ -6,26 +6,26 @@ const locations = [
   {
     name: 'Atlanta, GA',
     address: '2751 Buford Hwy, Atlanta, GA 30324',
-    phone: '(404) 699-2700',
-    email: 'atl@albanyfinalmile.com',
+    phone: '678-433-6100',
+    email: 'atl@afinalmile.com',
   },
   {
     name: 'Jacksonville, FL',
     address: '13981 Pecan Park Road, Jacksonville, FL 32218',
-    phone: '(904) 741-4780',
-    email: 'jax@albanyfinalmile.com',
+    phone: '678-433-6100',
+    email: 'jax@afinalmile.com',
   },
   {
     name: 'Savannah, GA',
     address: '456 Port Way, Savannah, GA 31401',
-    phone: '(912) 657-1263',
-    email: 'sav@albanyfinalmile.com',
+    phone: '678-433-6100',
+    email: 'sav@afinalmile.com',
   },
   {
     name: 'Tampa, FL',
     address: '789 Harbor Blvd, Tampa, FL 33602',
-    phone: '(321) 616-6771',
-    email: 'tpa@albanyfinalmile.com',
+    phone: '678-433-6100',
+    email: 'tpa@afinalmile.com',
   },
 ]
 

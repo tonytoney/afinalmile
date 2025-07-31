@@ -30,8 +30,8 @@ export default function Footer() {
               Your trusted partner in final mile delivery and logistics services.
             </p>
             <div className="space-y-2">
-              <p className="text-gray-400">Phone: (904) 741-4780</p>
-              <p className="text-gray-400">Email: info@albanyfinalmile.com</p>
+              <p className="text-gray-400">Phone: 678-433-6100</p>
+              <p className="text-gray-400">Email: info@afinalmile.com</p>
             </div>
           </div>
 

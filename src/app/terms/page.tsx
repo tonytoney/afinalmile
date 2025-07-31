@@ -82,8 +82,8 @@ export default function Terms() {
                 For questions about these Terms of Service, please contact us at:
               </p>
               <p className="text-gray-600 dark:text-gray-300">
-                Email: info@albanyfinalmile.com<br />
-                Phone: (904) 741-4780<br />
+                Email: info@afinalmile.com<br />
+                Phone: 678-433-6100<br />
                 Address: 13981 Pecan Park Road, Jacksonville, FL 32218
               </p>
             </section>

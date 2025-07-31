@@ -180,12 +180,12 @@ export default function Contact() {
               </div>
               <div>
                 <h3 className="text-lg font-semibold mb-2 text-gray-900 dark:text-white">Phone</h3>
-                <p className="text-gray-600 dark:text-gray-300">Main: (904) 741-4780</p>
+                <p className="text-gray-600 dark:text-gray-300">Main: 678-433-6100</p>
                 <p className="text-gray-600 dark:text-gray-300">Fax: (678) 609-1530</p>
               </div>
               <div>
                 <h3 className="text-lg font-semibold mb-2 text-gray-900 dark:text-white">Email</h3>
-                <p className="text-gray-600 dark:text-gray-300">operations@albanyfinalmile.com</p>
+                <p className="text-gray-600 dark:text-gray-300">operations@afinalmile.com</p>
               </div>
               <div>
                 <h3 className="text-lg font-semibold mb-2 text-gray-900 dark:text-white">Hours of Operation</h3>
