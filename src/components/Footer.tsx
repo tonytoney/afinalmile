@@ -7,9 +7,9 @@ const footerLinks = {
     { name: 'Contact', href: '/contact' },
   ],
   services: [
-    { name: 'Port Drayage', href: '/services#port-drayage' },
-    { name: 'Container Transport', href: '/services#container-transport' },
-    { name: 'Expedited Delivery', href: '/services#expedited-delivery' },
+    { name: 'First-Mile Services', href: '/services#first-mile' },
+    { name: 'Middle-Mile Services', href: '/services#middle-mile' },
+    { name: 'Last-Mile Services', href: '/services#last-mile' },
   ],
   locations: [
     { name: 'Atlanta, GA', href: '/locations#atlanta' },
