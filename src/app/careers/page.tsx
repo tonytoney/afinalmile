@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 import { useState, FormEvent, useRef } from 'react';
 
 const requirements = [
-  "26ft box truck with lift gate",
+  "26ft box truck with lift gate or Sprinter van",
   "Clean driving record",
   "Minimum 2 years of final mile delivery experience",
   "Knowledge of white glove operations",
