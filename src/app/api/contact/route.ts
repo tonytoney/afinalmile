@@ -28,14 +28,12 @@ export async function POST(req: Request) {
     // Create a transporter using SMTP with SSL/TLS from .env settings
     const transporter = nodemailer.createTransport({
       host: process.env.SMTP_HOST,
-      port: 587,              // ✅ use STARTTLS port
-      secure: false,          // ✅ must be false for port 587
+      port: parseInt(process.env.SMTP_PORT || '587'),
+      secure: process.env.SMTP_SECURE === 'true',
       auth: {
-        type: 'LOGIN',        // ✅ still valid
         user: process.env.SMTP_USER,
         pass: process.env.SMTP_PASSWORD
       },
-      authMethod: 'LOGIN',
       tls: {
         minVersion: 'TLSv1.2'
       }
@@ -45,7 +43,7 @@ export async function POST(req: Request) {
     // Email content
     const mailOptions = {
       from: process.env.SMTP_FROM_EMAIL,
-      to: process.env.SMTP_USER,
+      to: process.env.SMTP_TO_EMAIL || process.env.SMTP_USER,
       subject: `New Contact Form Submission: ${subject}`,
       html: `
         <h2>New Contact Form Submission</h2>

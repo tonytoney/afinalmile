@@ -17,8 +17,8 @@ export async function POST(req: Request) {
 
     const transporter = nodemailer.createTransport({
       host: process.env.SMTP_HOST,
-      port: 587,
-      secure: false,
+      port: parseInt(process.env.SMTP_PORT || '587'),
+      secure: process.env.SMTP_SECURE === 'true',
       auth: {
         user: process.env.SMTP_USER,
         pass: process.env.SMTP_PASSWORD
@@ -30,7 +30,7 @@ export async function POST(req: Request) {
 
     const mailOptions = {
       from: process.env.SMTP_FROM_EMAIL,
-      to: process.env.SMTP_USER,
+      to: process.env.SMTP_TO_EMAIL || process.env.SMTP_USER,
       subject: 'New Driver Application',
       html: `
         <h2>New Driver Application</h2>
