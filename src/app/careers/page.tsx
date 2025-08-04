@@ -4,20 +4,19 @@ import { motion } from 'framer-motion'
 import { useState, FormEvent, useRef } from 'react';
 
 const requirements = [
-  "Valid Commercial Driver's License (CDL)",
+  "26ft box truck with lift gate",
   "Clean driving record",
   "Minimum 2 years of final mile delivery experience",
-  "Ability to pass DOT drug screening and physical",
-  "Knowledge of delivery operations",
+  "Knowledge of white glove operations",
   "Strong communication skills",
 ]
 
 const benefits = [
   "Competitive pay rates",
-  "Plate Program",
-  "Fuel Card", 
-  "Optional insurances",
-  "Regular home time",
+  "Dedicated routes",
+  "Weekly settlements",
+  "Local and Regional routes",
+  "Business support",
 ]
 
 export default function Careers() {
