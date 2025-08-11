@@ -8,9 +8,9 @@
 
 
 <style>
-:root{color:#0E5A4C;} /* default for light */
+:root{color:#D35400;} /* burnt orange for light mode */
 @media (prefers-color-scheme: dark){
-  :root{color:#FFFFFF;}
+  :root{color:#E67E22;} /* lighter orange/gold for dark mode */
 }
 </style>
 
