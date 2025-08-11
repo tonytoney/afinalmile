@@ -19,9 +19,9 @@ export const metadata: Metadata = {
   robots: 'index, follow',
   icons: {
     icon: [
-      { url: '/favicon/favicon.svg', type: 'image/svg+xml' },
+      { url: '/favicon/favicon-adaptive.svg', type: 'image/svg+xml' },
     ],
-    shortcut: '/favicon/favicon.svg',
+    shortcut: '/favicon/favicon-adaptive.svg',
     apple: '/favicon/apple-touch-icon.svg',
   },
   manifest: '/favicon/site.webmanifest',
